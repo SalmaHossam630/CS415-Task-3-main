@@ -11,7 +11,7 @@ class AppTest {
     }
     @Test
     void testMultiply() {
-        assertEquals(5, App.add(2, 3));
+        assertEquals(5, App.multiply(2, 3));
     }
 
     @Test
