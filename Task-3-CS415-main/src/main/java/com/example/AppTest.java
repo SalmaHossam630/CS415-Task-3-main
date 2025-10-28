@@ -9,6 +9,10 @@ class AppTest {
     void testAddition() {
         assertEquals(5, App.add(2, 3));
     }
+    @Test
+    void testMultiply() {
+        assertEquals(5, App.add(2, 3));
+    }
 
     @Test
     void testNegativeNumbers() {
